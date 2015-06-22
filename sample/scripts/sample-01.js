@@ -40,38 +40,38 @@ angular.module('sample-01', ['adf', 'LocalStorageModule'])
             type: "linklist",
             config: {
               links: [{
-                title: "SCM-Manager",
-                href: "http://www.scm-manager.org"
+                title: "Subversion (MaRS)",
+                href: "http://sc-svn.corporate.local/repos/mars"
               }, {
-                title: "Github",
-                href: "https://github.com"
+                title: "Subversion (Dist Services)",
+                href: "http://sc-svn.corporate.local/repos/condor"
               }, {
-                title: "Bitbucket",
-                href: "https://bitbucket.org"
+                title: "Gitlab",
+                href: "http://git.corporate.local"
               }, {
-                title: "Stackoverflow",
-                href: "http://stackoverflow.com"
+                title: "Subversion (Dynamic Services)",
+                href: "http://sc-svn.corporate.local/repos/wsp-eng/Radd/branches/condor-production"
               }]
             },
             title: "Links"
           }, {
             type: "weather",
             config: {
-              location: "Hildesheim"
+              location: "Santa Clara,US"
             },
-            title: "Weather Hildesheim"
+            title: "Weather Santa Clara"
           }, {
             type: "weather",
             config: {
-              location: "Edinburgh"
+              location: "Golden,CO"
             },
-            title: "Weather"
+            title: "Weather Golden"
           }, {
             type: "weather",
             config: {
-              location: "Dublin,IE"
+              location: "Burbank,US"
             },
-            title: "Weather"
+            title: "Weather Burbank"
           }]
         }, {
           styleClass: "col-md-8",
